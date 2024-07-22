@@ -1,0 +1,70 @@
+body {
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, #baebff, #e3f7ff);
+    background-attachment: scroll;
+    background-size: 9000px;
+    background-repeat: repeat-y;
+    animation-name: body;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.cabeçalho {
+    background-color: #daedf5;
+    border-radius: 10px;
+    font-weight: 900;
+    padding: 20px;
+    text-shadow: 4px 2px 4px #01d9ff;/*, 3px 10px 5px #0000FF;*/
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    animation-name: exemplo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.frase {
+    color: #005050;
+}
+.link {
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border-radius: 20%;    
+    margin: 10px;
+    color: #005050;
+    background-color: aliceblue;
+}
+#img {
+    text-align: left;
+    margin-right: 100%;
+}
+#slogan {
+    color: rgb(0, 7, 73);
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: left;
+    transition-timing-function: linear;
+    transition: width 1s, heigh 1s;
+}
+#slogan:hover{
+    background-color: white;
+    color:black
+}
+span {
+    text-align: left;
+}
+@keyframes exemplo{
+    0% {color:#1100ff;border: #5decffad 5px solid;}
+    25% {color:#00c3ff;border: #4d59ffb2 5px solid;}
+    50% {color:#0099ff;border: #4dbeffb2 5px solid;}
+    75% {color:#0051ff;border: #4dffd8b9 5px solid;}
+    100% {color:#002fff;border: #71ffdbb4 5px solid;}
+}
+@keyframes body {
+    0% {background-image: linear-gradient(to bottom right, rgb(58, 58, 58),rgb(133, 133, 133));}
+    50% {background-image: linear-gradient(to bottom right, rgb(133, 133, 133),rgb(58, 58, 58));}
+    100% {background-image: linear-gradient(to bottom right, rgb(133, 133, 133),rgb(133, 133, 133));
+}}

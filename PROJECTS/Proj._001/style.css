@@ -1,0 +1,50 @@
+body {
+    background-image: url(img/img.jpeg);
+}
+div {
+    padding-bottom: 22px;
+    padding-top: 15px;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 20px;
+}
+.topo {
+    background-image: linear-gradient(to bottom right, rgba(86, 199, 171, 0.2), rgba(70, 122, 148, 0.2));
+    padding: 10px;
+    border-radius: 8%;
+    border-style: inset;
+    border-color: rgb(0, 104, 17);
+    border-width: 1px;
+    margin: 2px;
+}
+.fim {
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 100%;
+    margin-top: 200px;
+}
+#direitos {
+    color: rgb(74, 128, 76);
+    padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+#cabeçalho {
+    height: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgba(87, 189, 163, 0.5), rgba(61, 120, 150, 0.5));
+}
+#map {
+    width: 50%;
+}
+#créditos {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.774), rgba(0, 128, 0, 0.582));
+    color: rgb(0, 175, 88);
+    font-size: 20px;
+    padding: 5px;
+}
